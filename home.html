@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>E-Wallet</title>
+</head>
+<body>
+
+<div class="header"> <img src="logo.jpg" alt="logo"> </div>
+
+<div class="top">
+    <div class="wallet"> 
+    <div class="month_title"> Available budget for the month of <span class="month">%month%</span></div>
+    <!--<div class="rs">Rs.</div>-->
+    <div class="current_budget">1500.00</div>
+    
+    <div class="Income clearfix">
+        <div class="heading_income">INCOME</div>
+        <div class="right">
+            <div class="income_value">Rs. +1700.00</div>
+            <div class="income_percent">&nbsp;</div>
+        </div>
+    </div>
+
+    <div class="Expense clearfix">
+        <div class="heading_expense">EXPENSES</div>
+        <div class="right clearfix">
+            <div class="expense_value">Rs. -1200.00</div>
+            <div class="expense_percent">12%</div>
+        </div>
+    </div>
+  </div>
+</div>                           <!--end of top-->
+
+
+<div class="bottom">
+    <div class="add_des">
+        <div class="add_container">
+            <select class="add_type">
+                <option value="inc" selected>Inc</option>
+                <option value="exp">Exp</option>
+            </select>
+
+            <input type="text" class="descrip" placeholder="Add Description">
+            <input type="number" class="amount" placeholder="Amount">
+            <button class="submit"> Add </button>
+        </div>
+    </div>                    <!--end of description-->
+
+
+<div class="list_container clearfix">
+    <div class="income_container">
+        <h2 class="heading_list_income">Income</h2>
+        <div class="income_list">
+                 <!--
+                        <div class="item clearfix" id="income-0">
+                            <div class="item__description">Salary</div>
+                            <div class="right clearfix">
+                                <div class="item__value">+ 2,100.00</div>
+                                <div class="item__delete">
+                                    <button class="item__delete--btn">
+                                        <i class="ion-ios-close-outline"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="item clearfix" id="income-1">
+                            <div class="item__description">Sold car</div>
+                            <div class="right clearfix">
+                                <div class="item__value">+ 1,500.00</div>
+                                <div class="item__delete">
+                                    <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                        
+        </div>
+</div>
+
+<div class="expense_container">
+    <h2 class="heading_list_expense">Expenses</h2>
+    
+    <div class="expense_list">
+       
+        <!--
+        <div class="item clearfix" id="expense-0">
+            <div class="item__description">Apartment rent</div>
+            <div class="right clearfix">
+                <div class="item__value">- 900.00</div>
+                <div class="item__percentage">21%</div>
+                <div class="item__delete">
+                    <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="item clearfix" id="expense-1">
+            <div class="item__description">Grocery shopping</div>
+            <div class="right clearfix">
+                <div class="item__value">- 435.28</div>
+                <div class="item__percentage">10%</div>
+                <div class="item__delete">
+                    <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+                </div>
+            </div>
+        </div>
+        -->
+        
+    </div>
+</div>
+</div>
+
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
